@@ -6,7 +6,7 @@ metadata:
     # run: service-b-deployment
   name: service-b-deployment
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: service-b-deployment
